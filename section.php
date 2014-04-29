@@ -30,15 +30,15 @@ class PLPageHeader extends PageLinesSection {
 						'format-center'		=> array('name'=> 'Centered'),
 					)
 				),
-				array(
-					'key'			=> 'ph_mode',
-					'label' 		=> __( 'Mode', 'pagelines' ),
-					'type'			=> 'select',
-					'opts'	=> array(
-						'nav'	=> array('name'=> 'Use Nav Menu'),
-						'links'	=> array('name'=> 'Use Link Buttons'),
-					)
-				),
+				// array(
+				// 	'key'			=> 'ph_mode',
+				// 	'label' 		=> __( 'Mode', 'pagelines' ),
+				// 	'type'			=> 'select',
+				// 	'opts'	=> array(
+				// 		'nav'	=> array('name'=> 'Use Nav Menu'),
+				// 		'links'	=> array('name'=> 'Use Link Buttons'),
+				// 	)
+				// ),
 				array(
 					'key'			=> 'ph_pad_class',
 					'type' 			=> 'select_padding',
@@ -69,11 +69,11 @@ class PLPageHeader extends PageLinesSection {
 				'type'	=> 'multi',
 				'col'	=> 2,
 				'opts'	=> array(
-					array(
-						'key'			=> 'ph_menu',
-						'type' 			=> 'select_menu',
-						'label' 		=> __( 'Header Menu (menu mode only)', 'pagelines' ),
-					),
+					// array(
+					// 	'key'			=> 'ph_menu',
+					// 	'type' 			=> 'select_menu',
+					// 	'label' 		=> __( 'Header Menu (menu mode only)', 'pagelines' ),
+					// ),
 					array(
 						'key'			=> 'ph_link1',
 						'type' 			=> 'button_link',
